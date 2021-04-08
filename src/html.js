@@ -6,6 +6,7 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
+          <meta name="google-site-verification" content="SEYys0fdtHu8lxl-trxB8YwBG2_fNePlXtyuEe2bhMA" />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
