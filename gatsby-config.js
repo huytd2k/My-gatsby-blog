@@ -21,12 +21,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-remark-highlight-code`,
-            options: {
-              theme: 'material',
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-highlight-code`,
+          //   options: {
+          //     theme: 'material',
+          //   },
+          // },
           {
             resolve: `gatsby-remark-images`,
             options: {
