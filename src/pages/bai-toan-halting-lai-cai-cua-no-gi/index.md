@@ -50,7 +50,7 @@ Nếu `H` cho ra kết quả **không dừng**, thì nó sẽ đi ra ngoài và 
 
 Một đoạn code JS để mô tả lại quá trình trên:
 
-```
+```jsx
 function h(func, input) {
     var halt;
     // Do some calculation to determine whether func(input) will halt

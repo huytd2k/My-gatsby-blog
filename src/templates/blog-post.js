@@ -16,6 +16,8 @@ import {
   loadFontsForCode,
   replaceAnchorLinksByLanguage,
 } from '../utils/i18n';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 const GITHUB_USERNAME = 'gaearon';
 const GITHUB_REPO_NAME = 'overreacted.io';
