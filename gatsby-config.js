@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'Mikey2key',
+    author: 'Huy Tran',
+    description: 'Personal blog by Huy Tran.',
+    siteUrl: 'http://mikey2key.me',
     social: {
-      twitter: '@dan_abramov',
+      facebook: 'm1k3yfromhust',
     },
   },
   pathPrefix: '/',
@@ -129,37 +129,6 @@ module.exports = {
             title: "Dan Abramov's Overreacted Blog RSS Feed",
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-ebook`,
-      options: {
-        filename: 'overreacted-ebook.epub',
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                author
-              }
-            }
-            allMarkdownRemark(
-              sort: { fields: frontmatter___date, order: ASC },
-              filter: { fields: { langKey: { eq: "en" } } }
-            ) {
-              edges {
-                node {
-                  id
-                  fileAbsolutePath
-                  rawMarkdownBody
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }
-          }`,
       },
     },
     {

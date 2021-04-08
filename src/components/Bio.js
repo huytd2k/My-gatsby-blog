@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/profile-pic.jpg';
+import profilePic from '../assets/profile.jpeg';
 import { rhythm } from '../utils/typography';
 
 class Bio extends React.Component {
@@ -23,9 +23,10 @@ class Bio extends React.Component {
           }}
         />
         <p style={{ maxWidth: 310 }}>
-          Personal blog by{' '}
-          <a href="https://mobile.twitter.com/dan_abramov">Dan Abramov</a>.{' '}
-          I&nbsp;explain with words and code.
+          Một chiếc blog bởi{' '}
+          <a href="https://www.facebook.com/m1k3yfromhust/">Huy Tran</a>.{' '}
+          <br></br>
+          Nghe nói viết blog có nhiều lợi ích
         </p>
       </div>
     );

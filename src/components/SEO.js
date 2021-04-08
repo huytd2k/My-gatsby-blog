@@ -12,7 +12,7 @@ const query = graphql`
         description
         siteUrl
         social {
-          twitter
+          facebook
         }
       }
     }
@@ -37,7 +37,7 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
                   title,
                 }
               : {
-                  title: `${siteMetadata.title} — A blog by Dan Abramov`,
+                  title: `${siteMetadata.title} — A blog by Huy Tran`,
                 })}
             meta={[
               {
@@ -57,12 +57,12 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
                 content: metaDescription,
               },
               {
-                name: 'twitter:card',
+                name: 'facebook:card',
                 content: 'summary',
               },
               {
-                name: 'twitter:creator',
-                content: siteMetadata.social.twitter,
+                name: 'facebook:creator',
+                content: siteMetadata.social.facebook,
               },
               {
                 name: 'twitter:title',
